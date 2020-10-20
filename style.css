@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+    
+}
+form{
+    width: 35%;
+    height: 500px;
+    background-color: rgb(189, 179, 179);
+    margin:40px auto;
+    padding-top: 70px;
+    text-align: center;
+    border-radius: 20px;
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+#container{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+}
+div.box{
+   margin-bottom: 30px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+label{
+    width: 40%;
+
+
+}
+input,select{
+  width: 60%;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+
+}
+select:focus,input:focus{
+ outline: none;
+ background-color:none;
+}
+
+
+button{
+    background-color: rgb(114, 109, 109);
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: opacity 0.5s;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+button:hover{
+    opacity: 0.8;
+}
